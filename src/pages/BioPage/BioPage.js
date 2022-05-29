@@ -1,5 +1,6 @@
 import styles from "./BioPage.module.css"
 import Header from "../../Components/Header"
+import Footer from "../../Components/Footer"
 const BioPage = () => {
     return (
         <div className={styles.MainBioPage}>
@@ -20,6 +21,7 @@ const BioPage = () => {
                         <img className={styles.projectImage} src="https://i.imgur.com/aPydPtB.png" alt="" />
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )
