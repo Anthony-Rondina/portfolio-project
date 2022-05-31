@@ -1,17 +1,18 @@
 import styles from "./Components.module.css"
+import { Link } from "react-router-dom"
 const Header = () => {
     return (
         <div className={styles.mainHeader}>
-            <div className={styles.left}>
+            <Link to="/"><div className={styles.left}>
                 Anthony Rondina
-            </div>
+            </div></Link>
             <div className={styles.middle}>
                 Projects
             </div>
             <div className={styles.right}>
                 Contact
             </div>
-        </div>
+        </div >
     )
 }
 export default Header
