@@ -14,10 +14,17 @@
 
 .left {
     margin-left: 5%;
+    cursor: pointer;
+}
+
+.middle {
+
+    cursor: pointer;
 }
 
 .right {
     margin-right: 5%;
+    cursor: pointer;
 }
 
 .mainFooter {
