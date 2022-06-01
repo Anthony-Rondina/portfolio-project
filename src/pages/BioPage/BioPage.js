@@ -25,6 +25,10 @@ const BioPage = () => {
                         <Link to="/amazon"><img className={styles.projectImage} src="https://i.imgur.com/56H6x0p.png" alt="" /></Link>
                         <Link to="/atelier-collab"><img className={styles.projectImage} src="https://i.imgur.com/aPydPtB.png" alt="" /></Link>
                     </div>
+                    <div>
+                        <h2>Contact</h2>
+                    </div>
+                    <hr className={styles.line} />
                 </div>
                 <Footer />
             </div>
