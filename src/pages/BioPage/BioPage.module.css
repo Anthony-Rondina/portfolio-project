@@ -3,7 +3,7 @@
     height: 250px;
     border-radius: 50%;
     margin-right: 100px;
-    border: 2px solid #ffffff;
+    border: 6px solid black;
 }
 
 .bioSection {
@@ -20,7 +20,7 @@
 
 .widthBar {
     width: 1280px;
-    background-color: #e9d8a6;
+    background-color: #ffffff;
     height: 80%;
 }
 
@@ -61,7 +61,6 @@ hr {
     background-color: black;
     height: 1px;
 }
-
 
 .line {
     float: left;

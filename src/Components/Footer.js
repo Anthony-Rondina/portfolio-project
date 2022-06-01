@@ -2,10 +2,12 @@ import styles from "./Components.module.css"
 const Footer = () => {
     return (
         <div className={styles.mainFooter}>
-            <span className={styles.left}>Github</span>
-            <span className={styles.middle}>LinkedIn</span>
-            <span className={styles.middle}>Facebook</span>
-            <span className={styles.right}>Instagram</span>
+            <ul>
+                <li><a href="https://github.com/Anthony-Rondina" target="_blank" className={styles.left}>Github</a></li>
+                <li><a href="https://www.linkedin.com/in/arondina/ " target="_blank" className={styles.middle}>LinkedIn</a></li>
+                <li> <a href="https://www.facebook.com/anthony.rondina.52"
+                    target="_blank" className={styles.middle}>Facebook</a></li>
+            </ul>
         </div>
     )
 }
