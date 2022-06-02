@@ -6,7 +6,7 @@ const Amazon = () => {
         <div className={styles.mainShowWrapper}>
             <div className={styles.widthBar}>
                 <Header />
-                <h2>Pazaak</h2>
+                <h2>Amazon Clone</h2>
                 <hr className={styles.line} />
                 <h3>vvv Click image to launch the app! vvv</h3>
                 <div className={styles.heroImageWrapper}>
