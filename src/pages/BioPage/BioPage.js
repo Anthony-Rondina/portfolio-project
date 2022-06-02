@@ -10,9 +10,7 @@ const BioPage = () => {
                 <div className={styles.bioPage}>
                     <div className={styles.bioSection}>
                         <img className={styles.bioImage} src="https://i.imgur.com/KnCMI31.jpg" alt="" />
-                        <div className={styles.bioBox}>
-                            <p className={styles.bioText}>This is the section where I talk about myself!</p>
-                        </div>
+                        <p className={styles.bioText}>Hello there! My name is Anthony Rondina and I am a software developer commited to providing products of high quality. I love starting a project with nothing and seeing it through until completion. If after you view my work and want to connect, I look forward to speaking with you!</p>
                     </div>
                     <div>
                         <h2>Projects</h2>

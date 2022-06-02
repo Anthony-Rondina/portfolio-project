@@ -6,10 +6,23 @@
     border: 6px solid black;
 }
 
+.bioText {
+    width: 50%;
+}
+
+
 .bioSection {
     display: flex;
-    color: #001219;
+    font-size: 1.4em;
+    /* flex-direction: column; */
+    /* color: #001219; */
+    text-align: center;
     height: 100%;
+    width: 100%;
+    /* border: solid blue; */
+    justify-content: center;
+    align-items: center;
+
 }
 
 .MainBioPage {
