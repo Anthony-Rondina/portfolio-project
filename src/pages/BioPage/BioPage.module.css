@@ -40,6 +40,41 @@
     overflow: hidden;
 }
 
+.contactBox {
+    height: 300px;
+    border: solid 1px;
+    border-radius: 50px;
+    background-color: #3a6ea5;
+    color: #ebebeb;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contactText {
+    font-size: 1.5em;
+    width: 500px;
+}
+
+.emailMeButton {
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.emailMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    font-size: 1.5em;
+}
+
 .bioPage {
     margin-top: 100px;
     /* background-color: red; */
@@ -80,6 +115,13 @@ hr {
 
 .line {
     float: left;
+    width: 80%;
+    height: 1px;
+}
+
+.lineWhite {
+    float: left;
+    background-color: white;
     width: 80%;
     height: 1px;
 }
