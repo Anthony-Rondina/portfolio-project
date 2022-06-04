@@ -37,6 +37,7 @@
     width: 1280px;
     background-color: #ffffff;
     height: 80%;
+    overflow: hidden;
 }
 
 .bioPage {
