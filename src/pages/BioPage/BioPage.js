@@ -3,6 +3,12 @@ import Header from "../../Components/Header"
 import Footer from "../../Components/Footer"
 import { Link } from "react-router-dom"
 const BioPage = () => {
+
+    const Mailto = ({ email, subject, body, children }) => {
+        return (
+            <a href={`mailto:${email}?subject=${encodeURIComponent(subject) || ''}&body=${encodeURIComponent(body) || ''}`}>{children}</a>
+        );
+    };
     return (
         <div className={styles.MainBioPage}>
             <div className={styles.widthBar}>
@@ -42,7 +48,7 @@ const BioPage = () => {
                         <p className={styles.contactText}>Thank you for exploring my work! Let's take this to the next level and get a project going!</p>
                         <div className={styles.emailMe}>
                             <hr className={styles.lineWhite} />
-                            <p className={styles.emailMeButton}>Email me!</p>
+                            <a className={styles.emailMeButton} href={`mailto:${"anthony.rondina@icloud.com"}?subject=${encodeURIComponent("Let's Connect!") || ''}&body=${encodeURIComponent("") || ''}`}>Email Me</a>
                             <hr className={styles.lineWhite} />
                         </div>
 
