@@ -39,7 +39,7 @@ const BioPage = () => {
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.contactBox}>
-                        <p className={styles.contactText}>Thank you for exploring my work! Let's take this to the next level and get a project going! If you want to know more...</p>
+                        <p className={styles.contactText}>Thank you for exploring my work! Let's take this to the next level and get a project going!</p>
                         <div className={styles.emailMe}>
                             <hr className={styles.lineWhite} />
                             <p className={styles.emailMeButton}>Email me!</p>
