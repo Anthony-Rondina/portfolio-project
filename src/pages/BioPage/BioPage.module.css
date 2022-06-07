@@ -68,6 +68,10 @@
     text-align: center;
 }
 
+.emailMeButton:hover {
+    color: blue !important;
+}
+
 .emailMe {
     display: flex;
     justify-content: space-around;

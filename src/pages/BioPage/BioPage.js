@@ -2,6 +2,7 @@ import styles from "./BioPage.module.css"
 import Header from "../../Components/Header"
 import Footer from "../../Components/Footer"
 import { Link } from "react-router-dom"
+
 const BioPage = () => {
 
     const Mailto = ({ email, subject, body, children }) => {
@@ -13,7 +14,7 @@ const BioPage = () => {
         <div className={styles.MainBioPage}>
             <div className={styles.widthBar}>
                 <Header />
-                <div className={styles.bioPage}>
+                <div id="HomeJump" className={styles.bioPage}>
                     <div className={styles.bioSection}>
                         <img className={styles.bioImage} src="https://i.imgur.com/KnCMI31.jpg" alt="" />
                         <p className={styles.bioText}>Hello there! My name is Anthony Rondina and I am a software developer commited to providing products of high quality. I love starting a project from nothing and seeing it through until completion. If after you view my work and want to connect, I look forward to speaking with you!</p>
@@ -24,7 +25,7 @@ const BioPage = () => {
                         </div>
                     </div>
                     <div>
-                        <h2>Projects</h2>
+                        <h2 id="ProjectsJump">Projects</h2>
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.ProjectSection}>
@@ -41,7 +42,7 @@ const BioPage = () => {
                         </div>
                     </div>
                     <div>
-                        <h2>Contact</h2>
+                        <h2 id="ContactJump">Contact</h2>
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.contactBox}>
