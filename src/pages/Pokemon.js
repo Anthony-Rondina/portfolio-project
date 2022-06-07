@@ -15,7 +15,7 @@ const Pokemon = () => {
                 <h4>Technical Info</h4>
                 <hr className={styles.line} />
                 <div className={styles.technology}>
-                    <ul>
+                    <ul className={styles.unorderList}>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
@@ -23,19 +23,12 @@ const Pokemon = () => {
                 </div>
                 <div className={styles.challengeWrapper}>
                     <div className={styles.challenges}>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
+                        <ul className={styles.tech}>
+                            <li className={styles.techList}>Pixel Perfect Recreation</li>
+                            <li className={styles.techList}>Full combat integration and manipulation of objects</li>
+                            <li className={styles.techList}>Thorough DOM manipulation</li>
                         </ul>
                     </div>
-                </div>
-                <div className={styles.technology}>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
                 </div>
                 <Footer />
             </div>

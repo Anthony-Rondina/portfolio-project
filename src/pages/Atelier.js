@@ -15,27 +15,24 @@ const Atelier = () => {
                 <h4>Technical Info</h4>
                 <hr className={styles.line} />
                 <div className={styles.technology}>
-                    <ul>
+                    <ul className={styles.unorderList}>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
+                        <li>React</li>
+                        <li>Express</li>
+                        <li>Mongoose</li>
+                        <li>Node</li>
                     </ul>
                 </div>
                 <div className={styles.challengeWrapper}>
                     <div className={styles.challenges}>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
+                        <ul className={styles.tech}>
+                            <li className={styles.techList}>Pixel Perfect Recreation</li>
+                            <li className={styles.techList}>Managed a team of 8 to recreate a Figma file given by UX team</li>
+                            <li className={styles.techList}>RESTful APIs, Full CRUD functionality</li>
                         </ul>
                     </div>
-                </div>
-                <div className={styles.technology}>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
                 </div>
                 <Footer />
             </div>

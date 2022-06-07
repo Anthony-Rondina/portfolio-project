@@ -52,6 +52,7 @@ h4 {
 }
 
 .technology {
+    font-size: 1.5em;
     background-color: orange;
     height: 200px;
     width: 70%;
@@ -61,6 +62,7 @@ h4 {
 }
 
 .challenges {
+    font-size: 1.5em;
     background-color: orange;
     height: 200px;
     width: 70%;
@@ -75,4 +77,27 @@ h4 {
     height: 100px;
     position: relative;
     margin-bottom: 150px;
+}
+
+.unorderList {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    min-width: 696px;
+    list-style: none;
+}
+
+.tech {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.techList {
+    padding: 10px;
+}
+
+.unorderList {
+    margin-left: -40px;
+    margin-top: 80px;
 }
