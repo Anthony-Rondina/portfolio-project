@@ -1,0 +1,9 @@
+const projects = [
+    { title: "Pazaak", img: "https://i.imgur.com/5SgNbka.png", projectLink: "https://anthony-rondina.github.io/Pazaak/", techUsed: ["HTML", "CSS", "Javascript"], goals: ["Pixel Perfect Recreation", "AI analyzes over 50 scenarios", "Store/Unlocks Features"] },
+    { title: "Pokemon Elite 4 Battle", img: "https://i.imgur.com/je4nlWt.jpg", projectLink: "https://anthony-rondina.github.io/pokemonFireRedEliteFour/", techUsed: ["HTML", "CSS", "Javascript"], goals: ["Pixel Perfect Recreation", "Full combat integration and manipulation of objects", "Thorough DOM manipulation"] },
+    { title: "Choose Your Own Adventure Game", img: "https://i.imgur.com/ewp4GtW.jpg", projectLink: "https://ants-choose-your-own-adventure.herokuapp.com", techUsed: ["HTML", "CSS", "Javascript", "React", "Express", "Mongoose", "Node"], goals: ["React hooks", "JWT User Authenticaion", "RESTful APIs, Nested Relational Schemas, Full CRUD Functionality"] },
+    { title: "Amazon Clone", img: "https://i.imgur.com/56H6x0p.png", projectLink: "https://anthony-amazon-crud-app.herokuapp.com", techUsed: ["HTML", "CSS", "Javascript", "React", "Express", "Mongoose", "Node"], goals: ["Pixel Perfect Recreation", "Session based User Authentication", "RESTful APIs, full CRUD functionality"] },
+    { title: "www.Atelier.com", img: "https://i.imgur.com/aPydPtB.pnghttps://i.imgur.com/aPydPtB.pnghttps://i.imgur.com/aPydPtB.png", projectLink: "https://atelier-collaboration.herokuapp.com", techUsed: ["HTML", "CSS", "Javascript", "React", "Express", "Mongoose", "Node"], goals: ["Pixel Perfect Recreation", "Managed a team of 8 to recreate a Figma file given by UX team", "RESTful APIs, Full CRUD functionality"] },
+]
+
+export default projects

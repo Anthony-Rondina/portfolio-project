@@ -168,3 +168,113 @@ h2 {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
+.mainShowWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heroImageWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.widthBar {
+    width: 1280px;
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroImage {
+    width: 1000px;
+    /* border: solid 1px red; */
+}
+
+.content {
+    height: 800px;
+}
+
+.line {
+    width: 80%;
+    height: 1px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-top: 100px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+h4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+.technology {
+    font-size: 1.5em;
+    background-color: orange;
+    height: 200px;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+
+.challenges {
+    font-size: 1.5em;
+    background-color: orange;
+    height: 200px;
+    width: 70%;
+    position: absolute;
+    right: 0;
+
+}
+
+.challengeWrapper {
+    width: 100%;
+    /* border: solid 1px red; */
+    height: 100px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.unorderList {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    min-width: 696px;
+    list-style: none;
+}
+
+.tech {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.techList {
+    padding: 10px;
+}
+
+.unorderList {
+    margin-left: -40px;
+    margin-top: 80px;
+}
+
+.projectInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
