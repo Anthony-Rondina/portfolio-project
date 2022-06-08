@@ -9,16 +9,13 @@ const Header = () => {
                 <li><Link to="/"><div className={styles.left}>
                     Home
                 </div></Link></li>
-                {/* <li><div className={styles.middle}>
+                <li><div className={styles.middle}>
                     Projects
                 </div></li>
                 <li><div className={styles.right}>
                     Contact
-                </div></li> */}
+                </div></li>
             </ul>
-
-
-
         </div >
     )
 }

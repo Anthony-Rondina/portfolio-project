@@ -24,17 +24,21 @@ const BioPage = () => {
             <div className={styles.widthBar}>
                 <Header />
                 <div id="HomeJump" className={styles.bioPage}>
+                    <div>
+                        <h2>Anthony Rondina</h2>
+                    </div>
+                    <hr className={styles.line} />
                     <div className={styles.bioSection}>
                         <img className={styles.bioImage} src="https://i.imgur.com/KnCMI31.jpg" alt="" />
                         <p className={styles.bioText}>Hello there! My name is Anthony Rondina and I am a software developer commited to providing products of high quality. I love starting a project from nothing and seeing it through until completion. If after you view my work and want to connect, I look forward to speaking with you!</p>
                     </div>
                     <div class={styles.para}>
-                        <div class={styles.parainner}>
+                        <div id="ProjectsJump" class={styles.parainner}>
 
                         </div>
                     </div>
                     <div>
-                        <h2 id="ProjectsJump">Projects</h2>
+                        <h2>Projects</h2>
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.ProjectSection}>
@@ -79,6 +83,7 @@ const BioPage = () => {
                             </div>
                         </div>
                     </div>
+                    <a className={styles.return} href="#ProjectsJump">BACK TO PROJECTS</a>
                     <hr className={styles.line4} />
                     <div class={styles.para2}>
                         <div class={styles.parainner}>
@@ -94,7 +99,7 @@ const BioPage = () => {
                         <div className={styles.emailMe}>
                             <hr className={styles.lineWhite} />
                             <a className={styles.emailMeButton} href={`mailto:${"anthony.rondina@icloud.com"}?subject=${encodeURIComponent("Let's Connect!") || ''}&body=${encodeURIComponent("") || ''}`}>Email Me!</a>
-                            <a target="_blank" href="- https://drive.google.com/file/d/1nB9fI4ZNwQsUhOoT5rKcOr3JAgUR1bzh/export?format=pdf">Download Resume!</a>
+                            <a target="_blank" href="https://drive.google.com/file/d/1nB9fI4ZNwQsUhOoT5rKcOr3JAgUR1bzh/view?usp=pdf">Download Resume!</a>
                             <hr className={styles.lineWhite} />
                         </div>
 
