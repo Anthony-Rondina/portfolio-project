@@ -6,13 +6,13 @@ const Header = () => {
     return (
         <div className={styles.mainHeader}>
             <ul className={styles.unorderList}>
-                <a href="#topJump"><li><div className={styles.left}>
+                <a href="#Home"><li><div className={styles.left}>
                     Home
                 </div></li></a>
-                <a href="#ProjectsJump"><li><div className={styles.middle}>
+                <a href="#Projects"><li><div className={styles.middle}>
                     Projects
                 </div></li></a>
-                <a href="#ContactJump"><li><div className={styles.right}>
+                <a href="#Contact"><li><div className={styles.right}>
                     Contact
                 </div></li></a>
             </ul>
