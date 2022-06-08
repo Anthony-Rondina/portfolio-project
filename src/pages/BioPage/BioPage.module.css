@@ -55,6 +55,8 @@
     margin-bottom: 100px;
 }
 
+
+
 .contactText {
     font-size: 1.5em;
     width: 500px;
@@ -81,7 +83,7 @@
 }
 
 .bioPage {
-    /* margin-top: 100px; */
+    margin-top: 100px;
     /* background-color: red; */
     display: flex;
     width: 100%;
