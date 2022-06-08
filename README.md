@@ -8,13 +8,12 @@
 
 # Technologies Used:
 
-1. Express
-2. React
-3. NodeJS
-4. JavaScript
-5. JSX
-6. CSS
-7. HTML
-8. VScode
-9. Git
-10. GitHub
+1. React
+2. NodeJS
+3. JavaScript
+4. JSX
+5. CSS
+6. HTML
+7. VScode
+8. Git
+9. GitHub
