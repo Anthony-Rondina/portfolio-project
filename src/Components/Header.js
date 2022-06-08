@@ -6,15 +6,15 @@ const Header = () => {
     return (
         <div className={styles.mainHeader}>
             <ul className={styles.unorderList}>
-                <li><Link to="/"><div className={styles.left}>
+                <a href="#topJump"><li><div className={styles.left}>
                     Home
-                </div></Link></li>
-                <li><div className={styles.middle}>
+                </div></li></a>
+                <a href="#ProjectsJump"><li><div className={styles.middle}>
                     Projects
-                </div></li>
-                <li><div className={styles.right}>
+                </div></li></a>
+                <a href="#ContactJump"><li><div className={styles.right}>
                     Contact
-                </div></li>
+                </div></li></a>
             </ul>
         </div >
     )

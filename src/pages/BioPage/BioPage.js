@@ -25,7 +25,7 @@ const BioPage = () => {
                 <Header />
                 <div id="HomeJump" className={styles.bioPage}>
                     <div>
-                        <h2>Anthony Rondina</h2>
+                        <h2 id="topJump">Anthony Rondina</h2>
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.bioSection}>
@@ -42,15 +42,15 @@ const BioPage = () => {
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.ProjectSection}>
-                        <div onClick={() => { pickProject(0) }}><img className={styles.projectImage} src="https://i.imgur.com/5SgNbka.png" alt="" /></div>
-                        <div onClick={() => { pickProject(1) }} ><img className={styles.projectImage} src="https://i.imgur.com/je4nlWt.jpg" alt="" /></div>
-                        <div onClick={() => { pickProject(2) }} ><img className={styles.projectImage} src="https://i.imgur.com/ewp4GtW.jpg" alt="" /></div>
-                        <div onClick={() => { pickProject(3) }} ><img className={styles.projectImage} src="https://i.imgur.com/56H6x0p.png" alt="" /></div>
-                        <div onClick={() => { pickProject(4) }} ><img className={styles.projectImage} src="https://i.imgur.com/aPydPtB.png" alt="" /></div>
+                        <a href="#title" onClick={() => { pickProject(0) }}><img className={styles.projectImage} src="https://i.imgur.com/5SgNbka.png" alt="" /></a>
+                        <a href="#title" onClick={() => { pickProject(1) }} ><img className={styles.projectImage} src="https://i.imgur.com/je4nlWt.jpg" alt="" /></a>
+                        <a href="#title" onClick={() => { pickProject(2) }} ><img className={styles.projectImage} src="https://i.imgur.com/ewp4GtW.jpg" alt="" /></a>
+                        <a href="#title" onClick={() => { pickProject(3) }} ><img className={styles.projectImage} src="https://i.imgur.com/56H6x0p.png" alt="" /></a>
+                        <a href="#title" onClick={() => { pickProject(4) }} ><img className={styles.projectImage} src="https://i.imgur.com/aPydPtB.png" alt="" /></a>
                     </div>
                     <hr className={styles.line} />
                     <div className={styles.projectInfo}>
-                        <h2>{data[choice].title}</h2>
+                        <h2 id="title">{data[choice].title}</h2>
                         <hr className={styles.line} />
                         <h3>vvv Click image to launch the app! vvv</h3>
                         <div className={styles.heroImageWrapper}>
