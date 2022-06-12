@@ -13,6 +13,9 @@ a {
   color: white;
 }
 
+@media screen and (max-width: 600px) {}
+
+/* 
 @media screen and (min-width: 480px) {}
 
 @media screen and (min-width: 481px) {}
@@ -21,4 +24,4 @@ a {
 
 @media screen and (min-width: 1025px) {}
 
-@media screen and (min-width: 1201px) {}
+@media screen and (min-width: 1201px) {} */

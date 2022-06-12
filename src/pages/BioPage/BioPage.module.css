@@ -295,7 +295,50 @@ h4 {
     font-size: 2em;
 }
 
-@media screen and (min-width: 480px) {}
+@media screen and (max-width: 600px) {
+    .bioImage {
+        margin-top: -80px;
+        margin-right: 0px;
+    }
+
+    .bioText {
+        margin-top: -50px;
+        width: 500px;
+    }
+
+    .bioSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroImage {
+        width: 580px;
+    }
+
+    .parainner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .contactBox {
+        width: 550px;
+    }
+
+    .unorderList {
+        margin-top: 40px;
+        min-width: 400px;
+        /* border: solid 1px red; */
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .challenges {
+        height: 255px;
+    }
+}
+
+/* @media screen and (min-width: 480px) {}
 
 @media screen and (min-width: 481px) {}
 
@@ -303,4 +346,4 @@ h4 {
 
 @media screen and (min-width: 1025px) {}
 
-@media screen and (min-width: 1201px) {}
+@media screen and (min-width: 1201px) {} */
