@@ -408,6 +408,76 @@ h4 {
     }
 }
 
+@media screen and (max-width: 428px) {
+    .bioImage {
+        margin-top: -80px;
+        margin-right: 0px;
+    }
+
+    .bioText {
+        margin-top: -50px;
+        width: 350px;
+    }
+
+    .bioSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroImage {
+        width: 390px;
+    }
+
+    .parainner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .contactBox {
+        width: 370px;
+    }
+
+    .unorderList {
+        margin-top: 40px;
+        min-width: 290px;
+        /* border: solid 1px red; */
+        height: 100%;
+        flex-wrap: wrap;
+        font-size: .8em;
+    }
+
+    .contactText {
+        width: 360px;
+    }
+
+    .challenges {
+        font-size: 1.2em;
+        height: 255px;
+    }
+
+    .technology {
+        width: 100vw;
+    }
+
+    .challenges {
+        /* border: solid 1px blue; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        list-style-type: none;
+        min-width: 390;
+        list-style: none;
+    }
+
+
+    .tech {
+        list-style-type: none;
+    }
+}
+
 /* @media screen and (min-width: 480px) {}
 
 @media screen and (min-width: 481px) {}
