@@ -75,7 +75,7 @@
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
     .mainHeader {
         width: 390px;
         justify-content: center;
@@ -83,9 +83,13 @@
     }
 
     .mainFooter {
-        width: 390px;
+        max-width: 390px;
         justify-content: center;
         align-items: center;
+    }
+
+    .unorderFooterList {
+        width: 100vw;
     }
 
 }
